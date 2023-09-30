@@ -1,5 +1,5 @@
 const timersContainer = document.getElementById('timers-container');
-const startTimerBtn = document.getElementById('start-timer');
+const startTimerBtn = document.getElementById('set-timer');
 
 startTimerBtn.addEventListener('click', () => {
     const hours = parseInt(document.getElementById('hours').value) || 0;

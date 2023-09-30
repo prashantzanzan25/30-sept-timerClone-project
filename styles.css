@@ -19,7 +19,7 @@ body {
     width:328px;
     height: 42px;
     align-content: center;
-    background: rgba(255, 255, 255, 1);
+    background: rgb(247, 239, 239);
 
 }
 
@@ -39,9 +39,9 @@ input[type="number"] {
     margin-right: 10px;
 }
 
-#start-timer {
+#set-timer {
     padding: 8px 20px;
-    background-color: rgba(59, 59, 226);
+    background-color: rgb(13, 106, 228);
     color: #fff;
     cursor: pointer;
     border: none;
@@ -49,8 +49,8 @@ input[type="number"] {
     transition: background-color 0.3s ease;
 }
 
-#start-timer:hover {
-    background-color: rgba(59, 59, 226);
+#set-timer:hover {
+    background-color: rgb(49, 148, 49);
 }
 
 .current-timer{
@@ -65,11 +65,12 @@ input[type="number"] {
 
 /* Active Timer Styles */
 .active-timer {
-    border: 1px solid #dbc3c3;
-    padding: 10px;
-    margin: 10px;
-    background-color: #df791a;
-    border-radius: 4px;
+    border: 1px solid #ee5e5e;
+    width: 849px;
+    height: 132px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #c563ce;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -79,7 +80,7 @@ input[type="number"] {
 
 .active-timer button {
     padding: 8px 20px;
-    background-color: rgba(59, 59, 226);
+    background-color: rgb(13, 106, 228);
     color: #fff;
     cursor: pointer;
     border: none;
