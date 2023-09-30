@@ -37,9 +37,8 @@ function createTimer(duration) {
         remainingTime -= 1000;
         if (remainingTime <= 0) {
             clearInterval(interval);
-            timerDisplay.textContent = 'Time is UP!'; // Display "Time Ended" when the timer expires
-            timerElement.style.backgroundColor = "#d6eeef"; // Change background color for completed timer
-            playAudioAlert(); // Play the audio alert when the timer expires
+            timerDisplay.textContent = 'Time is UP!'; 
+            timerElement.style.backgroundColor = "#d6eeef"; 
         } else {
             updateTimerDisplay();
         }

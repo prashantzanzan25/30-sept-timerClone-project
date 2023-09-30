@@ -12,7 +12,7 @@ body, button, input {
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #751ec762;
+    background-color: #9969f359;
 }
 
 .header{
@@ -50,7 +50,7 @@ input[type="number"] {
 }
 
 #set-timer:hover {
-    background-color: rgb(49, 148, 49);
+    background-color: rgba(137, 241, 116, 0.89);
 }
 
 .current-timer{
@@ -65,12 +65,11 @@ input[type="number"] {
 
 /* Active Timer Styles */
 .active-timer {
-    border: 1px solid #ee5e5e;
-    width: 849px;
-    height: 132px;
-    align-items: center;
-    border-radius: 20px;
-    background-color: #c563ce;
+    border: 1px solid #ad9de5;
+    padding: 10px;
+    margin: 10px;
+    background-color: #8dda97;
+    border-radius: 4px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -89,5 +88,5 @@ input[type="number"] {
 }
 
 .active-timer button:hover {
-    background-color: rgb(49, 148, 49);
+    background-color: rgb(230, 48, 48);
 }
